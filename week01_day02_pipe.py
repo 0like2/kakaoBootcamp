@@ -127,7 +127,7 @@ try:
     df[numeric_cols].hist(bins=15, figsize=(15, 10))
     plt.show()
 except Exception as e:
-    print(f"An error occurred: {e}")
+    pㅋ노 rint(f"An error occurred: {e}")
 
 # 각 변수의 값 범위 확인
 print(df[numeric_cols].describe())
